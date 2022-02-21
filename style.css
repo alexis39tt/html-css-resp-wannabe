@@ -77,3 +77,30 @@ img {
 .clear {
   clear: both;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 420px) {
+  #lezioni, #why{
+    background-color: #f2f2cc;
+  }
+  div{
+    float: none !important;
+    margin: 0 auto;
+  }
+  .left, .right{
+    width: 100%;
+  }
+  .row{
+    width: 100%;
+    margin: 0 auto;
+  }
+  img{
+    width: 100px !important;
+    height: 100px !important;
+  }
+  #why div{
+    margin-top: 0px !important;
+    padding-top: 10px !important;
+  }
+}
