@@ -104,3 +104,13 @@ img {
     padding-top: 10px !important;
   }
 }
+
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  div{
+    background-color: #f2f2cc;
+  }
+
+  #steps div{
+    background-color: #f9f9f9;
+  }
+}
